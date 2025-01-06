@@ -34,7 +34,12 @@ body {
 }
 
 .header {
-    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Change this value to adjust the header width */
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .profile-container {
@@ -44,8 +49,8 @@ body {
 }
 
 .profile-photo {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--card-bg);
@@ -72,7 +77,7 @@ body {
     display: flex;
     gap: 1.5rem;
     justify-content: flex-start;
-    margin: 0.5rem 0;
+    margin: 0.2rem 0;
 }
 
 .social-link {
@@ -104,6 +109,24 @@ body {
     transition: background-color 0.3s ease;
 }
 
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background: linear-gradient(
+        to right, 
+        rgba(52, 152, 219, 0) 0%, /* Transparent on the left */
+        rgb(188, 188, 190) 50%, /* Solid in the middle */
+        rgba(101, 101, 101, 0) 100% /* Transparent on the right */
+    );
+    margin: 1rem 0; /* Spacing above and below */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
 .timeline {
     position: relative;
     margin-left: 7rem;
@@ -117,6 +140,7 @@ body {
     bottom: 0;
     width: 2px;
     background: var(--timeline-line);
+    z-index: -1;
 }
 
 .timeline-item {
@@ -130,20 +154,20 @@ body {
     left: -7rem;
     top: 0;
     font-weight: 600;
+    font-size: 0.9rem;
     color: var(--secondary-color);
 }
 
 .timeline-bullet {
     position: absolute;
-    left: -0.5rem;
+    left: -0.35rem;
     top: 0.5rem;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background: var(--timeline-line);
+    background: var(--secondary-color);
     border: 2px solid var(--background-color);
 }
-
 .company-logo,
 .university-logo {
     width: 50px;
@@ -164,18 +188,7 @@ body {
 }
 
 .section {
-    margin-bottom: 3rem;
-}
-
-.section:nth-child(odd) {
-    background-color: var(--card-bg);
-    padding: 2rem;
-    border-radius: 8px;
-}
-
-.section:nth-child(even) {
-    background-color: var(--background-color);
-    padding: 2rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
 }
 

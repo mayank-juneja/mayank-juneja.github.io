@@ -40,7 +40,7 @@ async function loadData() {
                     <img src="${exp.logo}" alt="${exp.company}" class="company-logo">
                     <div class="content">
                         <span class="title">${exp.title}</span>
-                        <p class="description">${exp.description}</p>
+                        <p class="description">${exp.description.replace(/\n/g, '<br>')}</p>
                     </div>
                 </div>
             </div>`;

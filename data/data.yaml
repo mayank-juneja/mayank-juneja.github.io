@@ -1,21 +1,21 @@
 name: Mayank Juneja
-bio: Product Leader and Industry Expert in AI/ML Applications, cybersecurity, Cloud and Edge Computing, and DevOps Tooling. Experience in driving zero-to-one product strategy, go-to-market planning, and launch of multi million dollar customer-facing products, and AI platform and tools. Experience leading large product and engineering teams, and working with infrastructure and AI technologies such as computer vision, Deep Learning, reinforcement learning, and prompt engineering.
+bio: I like building products that are shaping AI/ML, cybersecurity, and cloud tech 
 socialLinks:
-  - platform: GitHub
-    url: https://github.com/mayank-juneja
-    icon: fab fa-github
   - platform: LinkedIn
     url: https://www.linkedin.com/in/junejamayank/
     icon: fab fa-linkedin
   - platform: Twitter
     url: https://x.com/mayankjuneja_
     icon: fab fa-twitter
-  - platform: Substack
-    url: https://productlearning.substack.com/
-    icon: fas fa-newspaper
+  - platform: GitHub
+    url: https://github.com/mayank-juneja
+    icon: fab fa-github
   - platform: Medium
     url: https://medium.com/@junejamayank
     icon: fab fa-medium
+  - platform: Substack
+    url: https://productlearning.substack.com/
+    icon: fas fa-newspaper
   - platform: Email
     url: mailto:junejamayank10@gmail.com
     icon: fas fa-envelope
@@ -62,22 +62,27 @@ experience:
                             enabled $15M+/year revenue product
   - year: "2015 - 2016"
     company: National Institute of Standards and Technology
-    logo: assets/images/dish.png
+    logo: assets/images/nist.png
     title: Engineer - Echostar Consumer Devices
-    description: Implemented network discovery protocols for STB software that
-                            enabled $15M+/year revenue product
+    description: Founded and managed a Federal Spectrum Sharing program delivering 6 projects – resulted in 80% gain in efficiency
+                          • Built roadmap, planned resources and delivered 5 B2B projects within timelines and 15% less expenditure
+  - year: "2013 - 2014"
+    company: Accenture
+    logo: assets/images/accenture.png
+    title: Software Engineer - Ecom WebApps
+    description: Developed Ecom WebApps
 education:
   - institution: University of Colorado Boulder
     logo: assets/images/cuboulder.png
     degree: MS in Interdisciplinary Telecommunications
-    description: Focus on machine learning...
+    description: Focus on machine learning and distributed systems. Published X papers in top conferences
   - institution: Jaypee Institute of Information Technology
     logo: assets/images/jiit.png
     degree: BS in Electronics and Communication
-    description: Specialized in algorithms...
+    description: Specialized in algorithms and software engineering. Graduated with honors
 writing:
   - year: 2024
-    title: Building Scalable Systems: Lessons Learned
+    title: Building Scalable Systems
     link: "#"
     description: An in-depth look at architecture decisions...
 projects:
