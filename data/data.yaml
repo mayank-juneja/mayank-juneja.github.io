@@ -1,0 +1,90 @@
+name: Mayank Juneja
+bio: Product Leader and Industry Expert in AI/ML Applications, cybersecurity, Cloud and Edge Computing, and DevOps Tooling. Experience in driving zero-to-one product strategy, go-to-market planning, and launch of multi million dollar customer-facing products, and AI platform and tools. Experience leading large product and engineering teams, and working with infrastructure and AI technologies such as computer vision, Deep Learning, reinforcement learning, and prompt engineering.
+socialLinks:
+  - platform: GitHub
+    url: https://github.com/mayank-juneja
+    icon: fab fa-github
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/junejamayank/
+    icon: fab fa-linkedin
+  - platform: Twitter
+    url: https://x.com/mayankjuneja_
+    icon: fab fa-twitter
+  - platform: Substack
+    url: https://productlearning.substack.com/
+    icon: fas fa-newspaper
+  - platform: Medium
+    url: https://medium.com/@junejamayank
+    icon: fab fa-medium
+  - platform: Email
+    url: mailto:junejamayank10@gmail.com
+    icon: fas fa-envelope
+experience:
+  - year: "2023 -"
+    company: JPMorgan Chase
+    logo: assets/images/jpmc.png
+    title: Principal Product Manager - JPMorgan Markets
+    description: Head of Product for Digital Platform leading product vision, strategy, and
+                          the team unlocking next-gen customer experiences while improving
+                          platform performance and reducing new service time to market (enables $9
+                          Billion revenue business)
+  - year: "2016-2019"
+    company: VMware
+    logo: assets/images/vmware.png
+    title: Lead Product Manager - VMware Edge AI, Private Cloud
+    description: Edge AI
+                          • Launched two 0-1 Edge AI Platform Enterprise offerings and grew the
+                          business to $15M+ ARR over 6 months
+                          • Directed end-to-end GTM efforts, product launch, pricing, positioning,
+                          consistent messaging across stakeholders
+                          • Partnership and business development with over 30 startups, large
+                          cloud providers, retail, manufacturing, utilities and banking companies
+                          • Drove platform requirements involving multiple products for 25+
+                          Native App and AI features across 3 internal businesses and 2 OEMs
+                          • Incubated a data management strategy leading to the creation of a
+                          brand-new AI-driven Data Management Platform
+                          • Frequent speaker at more than 50 Customer Events, Webinars, EBCs
+                        
+                          Private Cloud
+                        Introduced a dozen new capabilities for VMware LCaaS solution focused
+                        on user needs, value proposition and portfolio results, resulting in new
+                        customer acquisitions and driving net new 20M+ sales
+                        • Increased CSAT from 70% to 96% by consistently improving product
+                        quality and experience; exceeding OKRs
+                        • Drove product roadmaps, manage agile deliverables and tradeoffs
+                        across engineering, product design, and data teams (manage two
+                        scrums)
+  - year: "2016 - 2016"
+    company: Dish Networks
+    logo: assets/images/dish.png
+    title: Engineer - Echostar Consumer Devices
+    description: Implemented network discovery protocols for STB software that
+                            enabled $15M+/year revenue product
+  - year: "2015 - 2016"
+    company: National Institute of Standards and Technology
+    logo: assets/images/dish.png
+    title: Engineer - Echostar Consumer Devices
+    description: Implemented network discovery protocols for STB software that
+                            enabled $15M+/year revenue product
+education:
+  - institution: University of Colorado Boulder
+    logo: assets/images/cuboulder.png
+    degree: MS in Interdisciplinary Telecommunications
+    description: Focus on machine learning...
+  - institution: Jaypee Institute of Information Technology
+    logo: assets/images/jiit.png
+    degree: BS in Electronics and Communication
+    description: Specialized in algorithms...
+writing:
+  - year: 2024
+    title: Building Scalable Systems: Lessons Learned
+    link: "#"
+    description: An in-depth look at architecture decisions...
+projects:
+  - title: Project Name
+    thumbnail: /api/placeholder/250/150
+    description: Description of the project...
+    link: "#"
+misc:
+  - 🎤 **Speaking:** I regularly speak at conferences...
+  - 📚 **Reading:** Currently reading "Designing Data-Intensive Applications"...
